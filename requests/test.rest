@@ -1,7 +1,7 @@
 GET http://localhost:4000/api/persons
 
 ###
-GET http://localhost:4000/api/persons/2
+GET http://localhost:4000/api/persons/629df5d953f3550fa7f32a48
 
 
 ###
@@ -10,6 +10,10 @@ POST http://localhost:4000/api/persons
 Content-Type: application/json
 
 {
-    "name":"Jimoh Zakamao kale",
-    "number":"0708909090099"
+    "name":"Sodiq Ajala ",
+    "number":"070908909000"
 }
+
+###
+
+DELETE  http://localhost:4000/api/persons/629df5d953f3550fa7f32a48
